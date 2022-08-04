@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Hind&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@500&display=swap');
 
 *{
     margin: 0;
@@ -98,9 +99,10 @@ h2{
     font-weight: 400;
 }
 .copyright_icon{
-    height: 24.91px;
-    width: 24.09px;
-    margin-right: 5px;
+    height: 18.91px;
+    width: 18.09px;
+    margin-right: 7px;
+    margin-bottom: 3px;
 }
 
 .copyright{
@@ -109,6 +111,13 @@ h2{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    font-family: 'Hind', sans-serif;
+    font-weight: 500;
+    align-items: center;
+    font-size: 28px;
+}
+.iSpan{
+    color: #00B4D8;
 }
 
 .first_flex{
@@ -155,7 +164,14 @@ img.icons{
     margin-top: 21.44px;
 }
 
+.fourth_flex .icons:hover {
+    transform: scale(1.1);
+}
+
 .auth{
     margin-top: 21.44px;
 }
 
+footer a {
+    text-decoration: none;
+}
